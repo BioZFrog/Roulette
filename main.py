@@ -1,7 +1,10 @@
 import pygame
 
-# Screen
+# Sprites
+shotgun = pygame.image.load(r"D:\ALL VSC WORK\Roulette\Assets\Sprites\Shotgun.png")
 
+
+# Screen
 screen = pygame.display.set_mode((800, 600))
 
 

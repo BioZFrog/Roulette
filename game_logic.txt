@@ -1,0 +1,14 @@
+# Health Aspect
+
+Health ->> Questions ->>> 1  "Iq from 1 - 10"  2  "Age"  3  "A random difficult maths question from maths_equations.py"
+
+
+# Core Aspects
+
+Number of items in game -> 7
+Number of shells in the shotgun -> 6
+
+List of items => Beer, Hand Saw, HandCuffs, Cigarette, Inverter, Expired Medicine, Adrenaline
+
+
+-------
