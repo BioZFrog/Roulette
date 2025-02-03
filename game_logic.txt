@@ -1,3 +1,5 @@
+# PIXEL SIZE 36x36
+
 # Health Aspect
 
 Health ->> Questions ->>> 1  "Iq from 1 - 10"  2  "Age"  3  "A random difficult maths question from maths_equations.py"
@@ -5,10 +7,19 @@ Health ->> Questions ->>> 1  "Iq from 1 - 10"  2  "Age"  3  "A random difficult 
 
 # Core Aspects
 
-Number of items in game -> 7
+Number of items in game -> 8
 Number of shells in the shotgun -> 6
 
-List of items => Beer, Hand Saw, HandCuffs, Cigarette, Inverter, Expired Medicine, Adrenaline
+List of items => Beer, Hand Saw, Hand Cuffs, Magnifying Glass, Cigarette, Inverter, Expired Medicine, Adrenaline 
 
 
--------
+Functionality of all items:
+-- Beer -> Removes the current shell in the chamber
+-- Hand Saw -> Cut the shotgun in half to deal twice the damage (The shotgun model becomes normal after that selection)
+-- Hand Cuffs -> Skips the opponents next turn
+-- Magnifying Glass -> Just checks the current shell in the chamber
+-- Cigarette -> Gain a heart
+-- Inverter -> Changes the current shells to its opposite shell in the chamber 
+-- Expired Medicine -> 40% chance of gaining two hearts, else you lose a heart
+-- Adrenaline -> Steal an item from the opponent and use it immediately
+-- Shotgun -> Shoot yourself or the opponent
